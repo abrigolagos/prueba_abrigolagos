@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es_CL">
+
+<head>
+  <!-- Metadatos esenciales -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abrigo-Lagos</title>
+  <!-- Icono de pestaña -->
+  <link rel="icon" type="image/png" href="assets/img/chinita-icono.png">
+  <!-- CSS: Bootstrap + Estilos personalizados -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- Tipografía desde Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Croissant+One&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="d-flex flex-column flex-md-row min-vh-100">
+  <!-- Menú lateral principal -->
+  <nav id="mainNavbar"
+    class="sidebar bg-personalizado text-white d-flex flex-md-column align-items-start p-4 gap-4 w-100 w-md-auto">
+    <!-- Contenedor sticky para mantener el logo y botón -->
+    <div class="sidebar-inner">
+      <!-- Logo + botón hamburguesa para móviles -->
+      <div class="d-flex w-100 justify-content-between align-items-center d-md-block">
+        <a href="#" class="text-white text-decoration-none d-flex align-items-center gap-2">
+          <img src="assets/img/logoabrigolagos.png" alt="Logo" height="40">
+          <span class="fw-bold d-md-none">Abrigo-Lagos</span>
+        </a>
+        <button class="navbar-toggler d-md-none border-0" type="button" id="customToggle"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+      <!-- Menú colapsable para móviles -->
+      <div class="sidebar-collapse w-100 mt-3 d-md-block" id="sidebarMenu">
+        <ul class="nav flex-column w-100 gap-2">
+          <li class="nav-item"><a class="link-sidebar" href="#sobre-mi">Sobre mi</a></li>
+          <li class="nav-item"><a class="link-sidebar" href="#galeria">Galería</a></li>
+          <li class="nav-item"><a class="link-sidebar" href="#acerca">Acerca</a></li>
+          <li class="nav-item"><a class="link-sidebar" href="#formulario">Hablemos</a></li>
+          <li class="nav-item"><a class="link-sidebar" href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Sección principal -->
+  <main class="flex-grow-1 p-4">
+    <!-- Presentación personal -->
+    <section id="sobre-mi"
+      class="sobre-mi-section-modern d-flex flex-column flex-md-row align-items-center gap-4 p-4 p-md-5 mb-5"
+      data-aos="fade-up" data-aos-delay="100">
+      <img src="assets/img/abrigo-lagos.jpg" alt="Abrigo-Lagos" class="img-sobre-mi" />
+      <div class="info-wrapper text-dark">
+        <h2 class="fw-bold mb-1">Cristian Abrigo-Lagos</h2>
+        <p class="text-muted mb-3">artista gráfico</p>
+        <p class="text-justificado fs-5">
+          Soy diseñador gráfico formado en la Escuela de Diseño de DuocUC, con 38 años y una profunda afinidad por el diseño editorial. He tenido la oportunidad de colaborar en la creación de textos escolares para el Gobierno de Chile, aportando desde el diseño a la educación pública del país.
+            Pero mi práctica va más allá del diseño: soy también artista visual y fotógrafo. Mi obra se despliega en diversos lenguajes —la ilustración, la pintura y la fotografía analógica— siempre guiada por una búsqueda constante de identidad, memoria y territorio.
+            Desde las ilustraciones de insectos chilenos adornados con patrones indígenas, hasta series pictóricas como Pandémica y Nuuk, exploro los vínculos entre lo ancestral y lo contemporáneo, entre lo micro y lo macro, entre lo invisible y lo evidente. En mi serie fotográfica Cailleach, inspirada en la brujería escocesa, propongo una mirada oscura y poética al paisaje y la mitología.
+            Me mueve la necesidad de contar historias visuales que celebren la diversidad natural y cultural, y de crear obras que inviten a detenerse, contemplar y pensar.
+        </p>
+        </p>
+      </div>
+    </section>
+    <!-- Contenedor galería -->
+    <section id="galeria" class="mb-5">
+      <h1 class="mb-4 text-center">Libros de Artista</h1>
+      <!-- Galería con disposición tipo bento grid -->
+      <div class="galeria-bento">
+        <!-- Cada imagen con clase específica para layout -->
+        <img src="assets/img/Cristian_Abrigo_Web_04.jpg"
+          class="bento-img img1" alt="Imagen 1" loading="lazy">
+        <img
+          src="assets/img/Cristian_Abrigo_Web_05.jpg"
+          class="bento-img img2" alt="Imagen 2" loading="lazy">
+        <img src="assets/img/Cristian_Abrigo_Web_06.jpg"
+          class="bento-img img3" alt="Imagen 3" loading="lazy">
+        <img src="assets/img/Cristian_Abrigo_Web_07.jpg"
+          class="bento-img img4" alt="Imagen 4" loading="lazy">
+        <img src="assets/img/Cristian_Abrigo_Web_08.jpg"
+          class="bento-img img5" alt="Imagen 5" loading="lazy">
+        <img src="assets/img/Cristian_Abrigo_Web_00005.jpg"
+          class="bento-img img6" alt="Imagen 6" loading="lazy">
+        <img
+          src="assets/img/Cristian_Abrigo_Web_00006.jpg"
+          class="bento-img img7" alt="Imagen 7" loading="lazy">
+        <img
+          src="assets/img/Cristian_Abrigo_Web_00007.jpg"
+          class="bento-img img8" alt="Imagen 8" loading="lazy">
+        <img
+          src="assets/img/Cristian_Abrigo_Web_00008.jpg"
+          class="bento-img img9" alt="Imagen 9" loading="lazy">
+        <img
+          src="assets/img/Cristian_Abrigo_Web_00009.jpg"
+          class="bento-img img10" alt="Imagen 10" loading="lazy">
+        <img
+          src="assets/img/Treng-Treng Kai-Kai_009.jpg"
+          class="bento-img img11" alt="Imagen 11" loading="lazy">
+        <img
+          src="assets/img/Treng-Treng Kai-Kai_010.jpg"
+          class="bento-img img12" alt="Imagen 12" loading="lazy">
+        <img
+          src="assets/img/Treng-Treng Kai-Kai_011.jpg"
+          class="bento-img img13" alt="Imagen 13" loading="lazy">
+        <img
+          src="assets/img/Treng-Treng Kai-Kai_012.jpg"
+          class="bento-img img14" alt="Imagen 14" loading="lazy">
+        <img
+          src="assets/img/Treng-Treng Kai-Kai_013.jpg"
+          class="bento-img img15" alt="Imagen 15" loading="lazy">
+      </div>
+    </section>
+    <!-- Contenedor del form y sección informativa -->
+    <div class="d-flex flex-column flex-md-row gap-4 mb-5" id="acerca-form-wrapper">
+      <!-- Descripción del proyecto -->
+      <section id="acerca" class="p-4 rounded-4 bg-light-subtle text-dark shadow-sm text-justificado flex-fill">
+        <h2 class="fw-bold mb-3">Emulsiones Fotográficas</h2>
+        <p>Los libros fotoquímicos son una obra interdisciplinaria que fusiona química, fotografía, composición y narrativa visual. A través de este enfoque, se exploran las interacciones entre la luz y los materiales fotográficos, revelando tanto la técnica de captura de imágenes como los procesos químicos involucrados. Cada volumen invita a los lectores a reflexionar sobre la relación entre los elementos visuales y su contexto, destacando la capacidad de la fotografía para comunicar ideas complejas.</p>
+        <!-- Autor en miniatura -->
+        <div class="d-flex align-items-center mt-4 gap-3">
+          <img src="assets/img/abrigo-lagos.jpg" alt="Foto del autor" class="rounded-circle"
+            style="width: 64px; height: 64px; object-fit: cover;">
+          <div>
+            <p class="mb-0 fw-bold">Abrigo-Lagos</p>
+            <small class="text-muted">artista gráfico</small>
+          </div>
+        </div>
+      </section>
+      <!-- Formulario de contacto -->
+      <section id="formulario" class="formulario-contacto p-4 rounded-4 shadow-sm flex-fill">
+        <h2 class="fw-bold mb-3 text-white">Envíame un mensaje</h2>
+        <form autocomplete="off">
+          <div class="mb-3">
+            <label for="nombre" class="form-label text-white">Nombre</label>
+            <input type="text" class="form-control" id="nombre" placeholder="Tu nombre">
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label text-white">Correo electrónico</label>
+            <input type="email" class="form-control" id="email" placeholder="correo@ejemplo.com">
+          </div>
+          <div class="mb-3">
+            <label for="mensaje" class="form-label text-white">Mensaje</label>
+            <textarea class="form-control" id="mensaje" rows="4" placeholder="Escribe tu mensaje aquí..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-light fw-bold">Enviar</button>
+        </form>
+      </section>
+    </div>
+    <!-- Contenedor de contacto y redes sociales -->
+    <footer id="contacto" class="footer-estilizado text-white py-4 mt-5">
+      <div class="container">
+        <div
+          class="d-flex flex-column flex-md-row justify-content-between align-items-center text-center text-md-start gap-4">
+          <!-- Información de contacto -->
+          <div class="contacto">
+            <h5 class="fw-bold mb-4 text-md-center text-center">Contacto</h5>
+            <p class="fw-bold mb-1">Email:</p>
+            <p class="fw-semibold small mb-2">cristian.abrigo@gmail.com</p>
+            <p class="fw-bold mb-1">Teléfono:</p>
+            <p class="fw-semibold small mb-0">+56 9 6 225 98 55</p>
+          </div>
+          <!-- Redes sociales -->
+          <div class="redes text-center text-md-end">
+            <h5 class="fw-bold mb-4">Sígueme</h5>
+            <div class="d-flex flex-wrap justify-content-center justify-content-md-end gap-3">
+              <a href="https://www.instagram.com/" target="_blank" title="Instagram">
+                <img src="./assets/img/instagram.svg" alt="Instagram" class="icono" />
+              </a>
+              <a href="https://www.facebook.com/" target="_blank" title="Facebook">
+                <img src="./assets/img/facebook.svg" alt="Facebook" class="icono" />
+              </a>
+              <a href="https://www.whatsapp.com/" target="_blank" title="WhatsApp">
+                <img src="./assets/img/whatsapp.svg" alt="Whatsapp" class="icono" />
+              </a>
+              <a href="https://www.linkedin.com/" target="_blank" title="LinkedIn">
+                <img src="./assets/img/linkedin.svg" alt="LinkedIn" class="icono" />
+              </a>
+              <a href="https://www.behance.net/" target="_blank" title="Behance">
+                <img src="./assets/img/behance.svg" alt="Behance" class="icono" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </main>
+  <!-- Bootstrap JS + Script propio -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
